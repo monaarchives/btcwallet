@@ -58,6 +58,7 @@ github.com/golang/mock v1.1.1/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfb
 github.com/golang/protobuf v0.0.0-20180821051752-b27b920f9e71/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.2.0 h1:P3YflyNX/ehuJFLhxviNdFxQPkGK5cDcApsge1SqnvM=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/golang/protobuf v1.3.1 h1:YF8+flBXS5eO826T4nzqPrxfhQThhXl0YzfuUPu4SBg=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/hpcloud/tail v1.0.0 h1:nfCOvKYfkgYP8hkirhJocXT2+zOD8yUNjXaWfTlyFKI=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
@@ -90,12 +91,15 @@ github.com/lightningnetwork/lnd/ticker v1.0.0 h1:S1b60TEGoTtCe2A0yeB+ecoj/kkS4qp
 github.com/lightningnetwork/lnd/ticker v1.0.0/go.mod h1:iaLXJiVgI1sPANIF2qYYUJXjoksPNvGNYowB8aRbpX0=
 github.com/monaarchives/btcwallet v0.0.0-20180904010540-284e2e0e696e33d5be388f7f3d9a26db703e0c06/go.mod h1:/d7QHZsfUAruXuBhyPITqoYOmJ+nq35qPsJjz/aSpCg=
 github.com/monaarchives/btcwallet v0.0.0-20190313032608-acf3b04b0273/go.mod h1:mkOYY8/psBiL5E+Wb0V7M0o+N7NXi2SZJz6+RKkncIc=
+github.com/monaarchives/btcwallet v0.0.0-20190614160816-56ee4799bcbb/go.mod h1:nDQ2/LtAepQMbmOanwC4dyxzLNF1jmGI/GdYr4mAiVw=
 github.com/monasuite/monad v0.0.0-20190606163121-f0d2a15b1f44 h1:nt10k6BDn/XVz4pGSaFDvWsUGiFT4mabuyvpWRpgkKM=
 github.com/monasuite/monad v0.0.0-20190606163121-f0d2a15b1f44/go.mod h1:ioPgaQSqFuc4H3OHqpXcYKKnPxC8wmg2sGHgrWssO+s=
 github.com/monasuite/monautil v0.0.0-20190606162653-90b266792864 h1:pMKZU4hTeLssZCspx+e7yTjoluCNxcL+OPF6ipqZeHI=
 github.com/monasuite/monautil v0.0.0-20190606162653-90b266792864/go.mod h1:kIVSL9QpyEYOh60Z7DIAAIhzOd9pHpRbMA3rOqVXOwc=
 github.com/monasuite/neutrino v0.0.0-20190614104037-69d45d3c47e4 h1:et7dgV0GOaQio5HWQDqJCVXIKHtgnhQaQPf9bnX7MmY=
 github.com/monasuite/neutrino v0.0.0-20190614104037-69d45d3c47e4/go.mod h1:HuqwTtShwYPj9ZHHDRnt/EU5b+f4pJqVSRVR+Z+eaWs=
+github.com/monasuite/neutrino v0.0.0-20190614161342-a9fd954e69b8 h1:UG3DVSDvouV+1VDIkaYURMWK8XKt5b5yf9mbYTgUD3A=
+github.com/monasuite/neutrino v0.0.0-20190614161342-a9fd954e69b8/go.mod h1:FW5rymREW6wjqUhizkPT4MpcPDgPsIGaeKxmvM9mxeA=
 github.com/onsi/ginkgo v1.6.0 h1:Ix8l273rp3QzYgXSR+c8d1fTG7UPgYkOSELPhiY/YGw=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.7.0 h1:WSHQ+IS43OoUrWtD1/bbclrwK8TTH5hzp+umCiuxHgs=
