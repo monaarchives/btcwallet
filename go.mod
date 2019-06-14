@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcwallet
+module github.com/monaarchives/btcwallet
 
 require (
 	github.com/btcsuite/btcd v0.0.0-20190523000118-16327141da8c
@@ -14,7 +14,7 @@ require (
 	github.com/kkdai/bstream v0.0.0-20181106074824-b3251f7901ec // indirect
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/lightninglabs/gozmq v0.0.0-20180324010646-462a8a753885
-	github.com/lightninglabs/neutrino v0.0.0-20190313035638-e1ad4c33fb18
+	github.com/monasuite/neutrino v0.0.0-20190313035638-e1ad4c33fb18
 	golang.org/x/crypto v0.0.0-20190211182817-74369b46fc67
 	golang.org/x/net v0.0.0-20190206173232-65e2d4e15006
 	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4 // indirect

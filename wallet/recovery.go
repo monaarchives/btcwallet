@@ -9,9 +9,9 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/monaarchives/btcwallet/waddrmgr"
+	"github.com/monaarchives/btcwallet/walletdb"
+	"github.com/monaarchives/btcwallet/wtxmgr"
 )
 
 // RecoveryManager maintains the state required to recover previously used

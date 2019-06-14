@@ -13,10 +13,10 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/monaarchives/btcwallet/waddrmgr"
+	"github.com/monaarchives/btcwallet/wallet/txauthor"
+	"github.com/monaarchives/btcwallet/walletdb"
+	"github.com/monaarchives/btcwallet/wtxmgr"
 )
 
 // byAmount defines the methods needed to satisify sort.Interface to

@@ -9,7 +9,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
+	"github.com/monaarchives/btcwallet/chain"
 )
 
 var Block100000 = wire.MsgBlock{

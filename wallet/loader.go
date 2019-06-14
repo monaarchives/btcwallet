@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/internal/prompt"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/monaarchives/btcwallet/internal/prompt"
+	"github.com/monaarchives/btcwallet/waddrmgr"
+	"github.com/monaarchives/btcwallet/walletdb"
 )
 
 const (

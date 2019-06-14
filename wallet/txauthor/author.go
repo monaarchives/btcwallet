@@ -12,10 +12,10 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/monaarchives/btcwallet/wallet/txrules"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
-	"github.com/btcsuite/btcwallet/wallet/internal/txsizes"
+	h "github.com/monaarchives/btcwallet/internal/helpers"
+	"github.com/monaarchives/btcwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

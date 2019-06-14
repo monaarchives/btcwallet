@@ -23,11 +23,11 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/monaarchives/btcwallet/chain"
+	"github.com/monaarchives/btcwallet/waddrmgr"
+	"github.com/monaarchives/btcwallet/wallet"
+	"github.com/monaarchives/btcwallet/wallet/txrules"
+	"github.com/monaarchives/btcwallet/wtxmgr"
 )
 
 // confirmed checks whether a transaction at height txHeight has met minconf

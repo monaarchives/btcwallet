@@ -14,9 +14,9 @@ import (
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/gcs"
 	"github.com/btcsuite/btcutil/gcs/builder"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wtxmgr"
-	"github.com/lightninglabs/neutrino"
+	"github.com/monaarchives/btcwallet/waddrmgr"
+	"github.com/monaarchives/btcwallet/wtxmgr"
+	"github.com/monasuite/neutrino"
 )
 
 // NeutrinoClient is an implementation of the btcwalet chain.Interface interface.

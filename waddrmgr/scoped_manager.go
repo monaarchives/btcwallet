@@ -8,8 +8,8 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/monaarchives/btcwallet/internal/zero"
+	"github.com/monaarchives/btcwallet/walletdb"
 )
 
 // DerivationPath represents a derivation path from a particular key manager's

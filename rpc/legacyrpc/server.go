@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/wallet"
+	"github.com/monaarchives/btcwallet/chain"
+	"github.com/monaarchives/btcwallet/wallet"
 	"github.com/btcsuite/websocket"
 )
 

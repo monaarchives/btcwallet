@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/monaarchives/btcwallet/walletdb"
 )
 
 const (

@@ -16,10 +16,10 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/monaarchives/btcwallet/waddrmgr"
+	"github.com/monaarchives/btcwallet/walletdb"
+	_ "github.com/monaarchives/btcwallet/walletdb/bdb"
+	"github.com/monaarchives/btcwallet/wtxmgr"
 )
 
 // TestTxToOutput checks that no new address is added to he database if we
