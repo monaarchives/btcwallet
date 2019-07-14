@@ -13,11 +13,11 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
 	github.com/kkdai/bstream v1.0.0 // indirect
-	github.com/lightninglabs/gozmq v0.0.0-20180324010646-462a8a753885
+	github.com/lightninglabs/gozmq v0.0.0-20190710231225-cea2a031735d
 	github.com/monasuite/neutrino v0.0.0-20190614161342-a9fd954e69b8
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
-	go.etcd.io/bbolt v1.3.2 // indirect
+	go.etcd.io/bbolt v1.3.3 // indirect
 	golang.org/x/crypto v0.0.0-20190211182817-74369b46fc67
 	golang.org/x/net v0.0.0-20190206173232-65e2d4e15006
 	golang.org/x/text v0.3.1-0.20180807135948-17ff2d5776d2 // indirect
