@@ -2,17 +2,15 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package txauthor_test
+package txauthor
 
 import (
 	"testing"
 
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	. "github.com/monaarchives/btcwallet/wallet/txauthor"
 	"github.com/monaarchives/btcwallet/wallet/txrules"
-
-	"github.com/monaarchives/btcwallet/wallet/internal/txsizes"
+	"github.com/monaarchives/btcwallet/wallet/txsizes"
 )
 
 func p2pkhOutputs(amounts ...btcutil.Amount) []*wire.TxOut {

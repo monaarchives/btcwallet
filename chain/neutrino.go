@@ -17,6 +17,7 @@ import (
 	"github.com/monaarchives/btcwallet/waddrmgr"
 	"github.com/monaarchives/btcwallet/wtxmgr"
 	"github.com/monasuite/neutrino"
+	"github.com/lightninglabs/neutrino/headerfs"
 )
 
 // NeutrinoClient is an implementation of the btcwalet chain.Interface interface.
@@ -409,7 +410,7 @@ func (s *NeutrinoClient) Rescan(startHash *chainhash.Hash, addrs []btcutil.Addre
 			OnFilteredBlockConnected: s.onFilteredBlockConnected,
 			OnBlockDisconnected:      s.onBlockDisconnected,
 		}),
-		neutrino.StartBlock(&waddrmgr.BlockStamp{Hash: *startHash}),
+		neutrino.StartBlock(&headerfs.BlockStamp{Hash: *startHash}),
 		neutrino.StartTime(s.startTime),
 		neutrino.QuitChan(s.rescanQuit),
 		neutrino.WatchAddrs(addrs...),
