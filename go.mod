@@ -11,8 +11,11 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
 	github.com/lightninglabs/gozmq v0.0.0-20190710231225-cea2a031735d
-	github.com/monaarchives/btcwallet/walletdb v0.0.0-20191014145746-951a10f083bd // indirect
-	github.com/monaarchives/btcwallet/wtxmgr v0.0.0-20191014145746-951a10f083bd // indirect
+	github.com/monaarchives/btcwallet/wallet/txauthor v0.0.0-00010101000000-000000000000
+	github.com/monaarchives/btcwallet/wallet/txrules v0.0.0-00010101000000-000000000000
+	github.com/monaarchives/btcwallet/wallet/txsizes v0.0.0-00010101000000-000000000000 // indirect
+	github.com/monaarchives/btcwallet/walletdb v0.0.0-20191014145746-951a10f083bd
+	github.com/monaarchives/btcwallet/wtxmgr v0.0.0-20191014145746-951a10f083bd
 	github.com/monasuite/monad v0.0.0-20191002130939-cb322f305e5f // indirect
 	github.com/monasuite/neutrino v0.0.0-20191015193800-fdbe0bae420b
 	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550

@@ -17,7 +17,7 @@ import (
 	"github.com/monaarchives/btcwallet/waddrmgr"
 	"github.com/monaarchives/btcwallet/wtxmgr"
 	"github.com/monasuite/neutrino"
-	"github.com/lightninglabs/neutrino/headerfs"
+	"github.com/monasuite/neutrino/headerfs"
 )
 
 // NeutrinoClient is an implementation of the btcwalet chain.Interface interface.
