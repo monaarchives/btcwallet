@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcwallet/wallet/txrules
+module github.com/monaarchives/btcwallet/wallet/txrules
 
 go 1.12
 
