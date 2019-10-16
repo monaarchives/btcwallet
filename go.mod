@@ -12,7 +12,7 @@ require (
 	github.com/jrick/logrotate v1.0.0
 	github.com/lightninglabs/gozmq v0.0.0-20190710231225-cea2a031735d
 	github.com/monasuite/monad v0.0.0-20191002130939-cb322f305e5f // indirect
-	github.com/monasuite/neutrino v0.0.0-20191015193800-fdbe0bae420b
+	github.com/monasuite/neutrino v0.10.0 // indirect
 	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
 	google.golang.org/grpc v1.18.0
