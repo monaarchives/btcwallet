@@ -19,9 +19,6 @@ github.com/btcsuite/btcutil v0.0.0-20180706230648-ab6388e0c60a/go.mod h1:+5NJ2+q
 github.com/btcsuite/btcutil v0.0.0-20190207003914-4c204d697803/go.mod h1:+5NJ2+qvTyV9exUAL/rxXi3DcLg2Ts+ymUAY5y4NvMg=
 github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d h1:yJzD/yFppdVCf6ApMkVy8cUxV0XrxdP9rVf6D87/Mng=
 github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d/go.mod h1:+5NJ2+qvTyV9exUAL/rxXi3DcLg2Ts+ymUAY5y4NvMg=
-github.com/btcsuite/btcwallet v0.0.0-20180904010540-284e2e0e696e33d5be388f7f3d9a26db703e0c06/go.mod h1:/d7QHZsfUAruXuBhyPITqoYOmJ+nq35qPsJjz/aSpCg=
-github.com/btcsuite/btcwallet v0.0.0-20190313032608-acf3b04b0273/go.mod h1:mkOYY8/psBiL5E+Wb0V7M0o+N7NXi2SZJz6+RKkncIc=
-github.com/btcsuite/btcwallet v0.0.0-20190319010515-89ab2044f962/go.mod h1:qMi4jGpAO6YRsd81RYDG7o5pBIGqN9faCioJdagLu64=
 github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd h1:R/opQEbFEy9JGkIguV40SvRY1uliPX8ifOvi6ICsFCw=
 github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd/go.mod h1:HHNXQzUsZCxOoE+CPiyCTO6x34Zs86zZUiwtpXoGdtg=
 github.com/btcsuite/golangcrypto v0.0.0-20150304025918-53f62d9b43e8 h1:nOsAWScwueMVk/VLm/dvQQD7DuanyvAUb6B3P3eT274=
@@ -91,10 +88,6 @@ github.com/lightningnetwork/lnd/queue v1.0.1 h1:jzJKcTy3Nj5lQrooJ3aaw9Lau3I0IwvQ
 github.com/lightningnetwork/lnd/queue v1.0.1/go.mod h1:vaQwexir73flPW43Mrm7JOgJHmcEFBWWSl9HlyASoms=
 github.com/lightningnetwork/lnd/ticker v1.0.0 h1:S1b60TEGoTtCe2A0yeB+ecoj/kkS4qpwh6l+AkQEZwU=
 github.com/lightningnetwork/lnd/ticker v1.0.0/go.mod h1:iaLXJiVgI1sPANIF2qYYUJXjoksPNvGNYowB8aRbpX0=
-github.com/monaarchives/btcwallet v0.0.0-20180904010540-284e2e0e696e33d5be388f7f3d9a26db703e0c06/go.mod h1:/d7QHZsfUAruXuBhyPITqoYOmJ+nq35qPsJjz/aSpCg=
-github.com/monaarchives/btcwallet v0.0.0-20190313032608-acf3b04b0273/go.mod h1:mkOYY8/psBiL5E+Wb0V7M0o+N7NXi2SZJz6+RKkncIc=
-github.com/monaarchives/btcwallet v0.0.0-20190614160816-56ee4799bcbb/go.mod h1:nDQ2/LtAepQMbmOanwC4dyxzLNF1jmGI/GdYr4mAiVw=
-github.com/monaarchives/btcwallet v0.0.0-20190714065058-1e4f031ea06d/go.mod h1:pULMwQnEuxO6qE1O5U9MADacNz+fMKHE54LnTUSyYCI=
 github.com/monasuite/monad v0.0.0-20190606163121-f0d2a15b1f44 h1:nt10k6BDn/XVz4pGSaFDvWsUGiFT4mabuyvpWRpgkKM=
 github.com/monasuite/monad v0.0.0-20190606163121-f0d2a15b1f44/go.mod h1:ioPgaQSqFuc4H3OHqpXcYKKnPxC8wmg2sGHgrWssO+s=
 github.com/monasuite/monad v0.0.0-20191002130939-cb322f305e5f h1:vh8iV43Zj9A4m6m/SpQy8U5oc7ItEloZYRgCF7vgZc4=
