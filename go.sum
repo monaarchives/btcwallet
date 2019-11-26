@@ -11,8 +11,8 @@ github.com/btcsuite/btcd v0.0.0-20190213025234-306aecffea32/go.mod h1:DrZx5ec/dm
 github.com/btcsuite/btcd v0.0.0-20190605094302-a0d1e3e36d50/go.mod h1:3J08xEfcugPacsc34/LKRU2yO7YmuT8yt28J8k2+rrI=
 github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3 h1:A/EVblehb75cUgXA5njHPn0kLAsykn6mJGz7rnmW5W0=
 github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3/go.mod h1:3J08xEfcugPacsc34/LKRU2yO7YmuT8yt28J8k2+rrI=
-github.com/btcsuite/btcd v0.20.0-beta h1:DnZGUjFbRkpytojHWwy6nfUSA7vFrzWXDLpFNzt74ZA=
-github.com/btcsuite/btcd v0.20.0-beta/go.mod h1:wVuoA8VJLEcwgqHBwHmzLRazpKxTv13Px/pDuV7OomQ=
+github.com/btcsuite/btcd v0.20.1-beta h1:Ik4hyJqN8Jfyv3S4AGBOmyouMsYE3EdYODkMbQjwPGw=
+github.com/btcsuite/btcd v0.20.1-beta/go.mod h1:wVuoA8VJLEcwgqHBwHmzLRazpKxTv13Px/pDuV7OomQ=
 github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f h1:bAs4lUbRJpnnkd9VhRV3jjAVU7DJVjMaK+IsvSeZvFo=
 github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f/go.mod h1:TdznJufoqS23FtqVCzL0ZqgP5MqXbb4fg/WgDys70nA=
 github.com/btcsuite/btcutil v0.0.0-20180706230648-ab6388e0c60a/go.mod h1:+5NJ2+qvTyV9exUAL/rxXi3DcLg2Ts+ymUAY5y4NvMg=
@@ -76,9 +76,8 @@ github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORN
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/lightninglabs/gozmq v0.0.0-20180324010646-462a8a753885/go.mod h1:KUh15naRlx/TmUMFS/p4JJrCrE6F7RGF7rsnvuu45E4=
-github.com/lightninglabs/gozmq v0.0.0-20190710231225-cea2a031735d h1:tt8hwvxl6fksSfchjBGaWu+pnWJQfG1OWiCM20qOSAE=
-github.com/lightninglabs/gozmq v0.0.0-20190710231225-cea2a031735d/go.mod h1:vxmQPeIQxPf6Jf9rM8R+B4rKBqLA2AjttNxkFBL2Plk=
+github.com/lightninglabs/gozmq v0.0.0-20191113021534-d20a764486bf h1:HZKvJUHlcXI/f/O0Avg7t8sqkPo78HFzjmeYFl6DPnc=
+github.com/lightninglabs/gozmq v0.0.0-20191113021534-d20a764486bf/go.mod h1:vxmQPeIQxPf6Jf9rM8R+B4rKBqLA2AjttNxkFBL2Plk=
 github.com/lightningnetwork/lnd/queue v1.0.1 h1:jzJKcTy3Nj5lQrooJ3aaw9Lau3I0IwvQR5sqtjdv2R0=
 github.com/lightningnetwork/lnd/queue v1.0.1/go.mod h1:vaQwexir73flPW43Mrm7JOgJHmcEFBWWSl9HlyASoms=
 github.com/lightningnetwork/lnd/ticker v1.0.0 h1:S1b60TEGoTtCe2A0yeB+ecoj/kkS4qpwh6l+AkQEZwU=
@@ -87,10 +86,14 @@ github.com/monasuite/monad v0.0.0-20190606163121-f0d2a15b1f44 h1:nt10k6BDn/XVz4p
 github.com/monasuite/monad v0.0.0-20190606163121-f0d2a15b1f44/go.mod h1:ioPgaQSqFuc4H3OHqpXcYKKnPxC8wmg2sGHgrWssO+s=
 github.com/monasuite/monad v0.0.0-20191002130939-cb322f305e5f h1:vh8iV43Zj9A4m6m/SpQy8U5oc7ItEloZYRgCF7vgZc4=
 github.com/monasuite/monad v0.0.0-20191002130939-cb322f305e5f/go.mod h1:ioPgaQSqFuc4H3OHqpXcYKKnPxC8wmg2sGHgrWssO+s=
+github.com/monasuite/monad v0.20.1-beta h1:3QwRucQa+TsojOF2TXBhhh2NKvx/kwFpbwL/eD8thS4=
+github.com/monasuite/monad v0.20.1-beta/go.mod h1:fu480ISQ0zpvXulpgMCpDH6a2tTxd7VfaNKW+A5db24=
 github.com/monasuite/monautil v0.0.0-20190606162653-90b266792864 h1:pMKZU4hTeLssZCspx+e7yTjoluCNxcL+OPF6ipqZeHI=
 github.com/monasuite/monautil v0.0.0-20190606162653-90b266792864/go.mod h1:kIVSL9QpyEYOh60Z7DIAAIhzOd9pHpRbMA3rOqVXOwc=
 github.com/monasuite/neutrino v0.10.0 h1:LjOUq2DW7yOV2dHGKNvQyk4Oga5LIjexEGal1vOcLag=
 github.com/monasuite/neutrino v0.10.0/go.mod h1:RLqVdv3uhp5K/EQEzDOpw3elKKODQGuEyQoBZew84lg=
+github.com/monasuite/neutrino v0.11.0 h1:CFkvWRdDAf57K3HMhG5Wwk/wgnN3PiscPG7duT1ilm4=
+github.com/monasuite/neutrino v0.11.0/go.mod h1:wnQFoz632F+DNtcoJ83/u0B2ffNsUi7YVYm4YaQqqEM=
 github.com/onsi/ginkgo v1.6.0 h1:Ix8l273rp3QzYgXSR+c8d1fTG7UPgYkOSELPhiY/YGw=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.7.0 h1:WSHQ+IS43OoUrWtD1/bbclrwK8TTH5hzp+umCiuxHgs=
