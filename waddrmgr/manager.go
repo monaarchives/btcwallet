@@ -123,6 +123,14 @@ var DefaultScryptOptions = ScryptOptions{
 	P: 1,
 }
 
+// FastScryptOptions are the scrypt options that should be used for testing
+// purposes only where speed is more important than security.
+var FastScryptOptions = ScryptOptions{
+	N: 16,
+	R: 8,
+	P: 1,
+}
+
 // addrKey is used to uniquely identify an address even when those addresses
 // would end up being the same bitcoin address (as is the case for
 // pay-to-pubkey and pay-to-pubkey-hash style of addresses).
@@ -741,6 +749,29 @@ func (m *Manager) ForEachAccountAddress(ns walletdb.ReadBucket, account uint32,
 	for _, scopedMgr := range m.scopedManagers {
 		err := scopedMgr.ForEachAccountAddress(ns, account, fn)
 		if err != nil {
+			return err
+		}
+	}
+
+	return nil
+}
+
+// ForEachDefaultScopeActiveAddress calls the given function with each active
+// address stored in the manager within the default scopes, breaking early on
+// error.
+func (m *Manager) ForEachDefaultScopeActiveAddress(ns walletdb.ReadBucket,
+	fn func(addr btcutil.Address) error) error {
+
+	m.mtx.RLock()
+	defer m.mtx.RUnlock()
+
+	for _, keyScope := range DefaultKeyScopes {
+		scopedMgr, ok := m.scopedManagers[keyScope]
+		if !ok {
+			return fmt.Errorf("manager for default key scope with "+
+				"purpose %v not found", keyScope.Purpose)
+		}
+		if err := scopedMgr.ForEachActiveAddress(ns, fn); err != nil {
 			return err
 		}
 	}
