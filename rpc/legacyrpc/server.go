@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcjson"
+	"github.com/btcsuite/websocket"
 	"github.com/monaarchives/btcwallet/chain"
 	"github.com/monaarchives/btcwallet/wallet"
-	"github.com/btcsuite/websocket"
 )
 
 type websocketClient struct {

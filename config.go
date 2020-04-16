@@ -16,11 +16,11 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcutil"
+	flags "github.com/jessevdk/go-flags"
 	"github.com/monaarchives/btcwallet/internal/cfgutil"
 	"github.com/monaarchives/btcwallet/internal/legacy/keystore"
 	"github.com/monaarchives/btcwallet/netparams"
 	"github.com/monaarchives/btcwallet/wallet"
-	flags "github.com/jessevdk/go-flags"
 	"github.com/monasuite/neutrino"
 )
 

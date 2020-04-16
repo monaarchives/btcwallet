@@ -12,12 +12,12 @@ import (
 
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/btcsuite/btclog"
+	"github.com/jrick/logrotate/rotator"
 	"github.com/monaarchives/btcwallet/chain"
 	"github.com/monaarchives/btcwallet/rpc/legacyrpc"
 	"github.com/monaarchives/btcwallet/rpc/rpcserver"
 	"github.com/monaarchives/btcwallet/wallet"
 	"github.com/monaarchives/btcwallet/wtxmgr"
-	"github.com/jrick/logrotate/rotator"
 	"github.com/monasuite/neutrino"
 )
 

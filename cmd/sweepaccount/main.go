@@ -18,11 +18,11 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
+	"github.com/jessevdk/go-flags"
 	"github.com/monaarchives/btcwallet/internal/cfgutil"
 	"github.com/monaarchives/btcwallet/netparams"
 	"github.com/monaarchives/btcwallet/wallet/txauthor"
 	"github.com/monaarchives/btcwallet/wallet/txrules"
-	"github.com/jessevdk/go-flags"
 )
 
 var (

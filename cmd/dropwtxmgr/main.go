@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 
 	"github.com/btcsuite/btcutil"
+	"github.com/jessevdk/go-flags"
 	"github.com/monaarchives/btcwallet/waddrmgr"
 	"github.com/monaarchives/btcwallet/walletdb"
 	_ "github.com/monaarchives/btcwallet/walletdb/bdb"
 	"github.com/monaarchives/btcwallet/wtxmgr"
-	"github.com/jessevdk/go-flags"
 )
 
 const defaultNet = "mainnet"
