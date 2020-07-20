@@ -15,10 +15,10 @@ require (
 	github.com/monaarchives/btcwallet/wallet/txrules v1.0.0
 	github.com/monaarchives/btcwallet/walletdb v1.3.1
 	github.com/monaarchives/btcwallet/wtxmgr v1.0.0
-	github.com/monasuite/monad v0.20.2-beta
-	github.com/monasuite/neutrino v0.11.0
-	golang.org/x/crypto v0.0.0-20190211182817-74369b46fc67
-	golang.org/x/net v0.0.0-20190206173232-65e2d4e15006
+	github.com/monasuite/monad v0.22.1-beta
+	github.com/monasuite/neutrino v0.12.0
+	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
+	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
 	google.golang.org/genproto v0.0.0-20190201180003-4b09977fb922 // indirect
 	google.golang.org/grpc v1.18.0
 )
