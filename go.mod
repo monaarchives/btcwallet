@@ -13,8 +13,8 @@ require (
 	github.com/lightninglabs/gozmq v0.0.0-20191113021534-d20a764486bf
 	github.com/monaarchives/btcwallet/wallet/txauthor v1.0.0
 	github.com/monaarchives/btcwallet/wallet/txrules v1.0.0
-	github.com/monaarchives/btcwallet/walletdb v1.3.1
-	github.com/monaarchives/btcwallet/wtxmgr v1.0.0
+	github.com/monaarchives/btcwallet/walletdb v1.3.3
+	github.com/monaarchives/btcwallet/wtxmgr v1.2.0
 	github.com/monasuite/monad v0.22.1-beta
 	github.com/monasuite/neutrino v0.12.0
 	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
